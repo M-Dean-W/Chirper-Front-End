@@ -60,7 +60,6 @@ const App = () => {
         }
     };
 
-
     const refinedChirps = chirps.map(val => {
         return (
             <Card key={val.key} className="rounded-3 mb-3">
@@ -73,8 +72,6 @@ const App = () => {
             </Card>
         )
     });
-
-
 
     return (
         <>
